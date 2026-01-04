@@ -6,7 +6,7 @@ model=rnnoise_data-$hash.tar.gz
 
 if [ ! -f $model ]; then
         echo "Downloading latest model"
-        wget https://media.xiph.org/rnnoise/models/$model
+        wget https://oss-useasy-prod.oss-cn-hangzhou.aliyuncs.com/common/$model
 fi
 
 if command -v sha256sum
